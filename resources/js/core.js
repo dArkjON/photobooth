@@ -145,6 +145,7 @@ var photoBooth = (function () {
             }).done(function (data) {
                 console.log(data)
             })
+                alert('Ihr Druck wird erstellt. Bitte warten !')
         });
 
         // Add Image to gallery and slider
@@ -301,6 +302,7 @@ var photoBooth = (function () {
         }).done(function (data) {
             console.log(data)
         })
+            alert('Ihr Druck wird erstellt. Bitte warten !')
     });
 
     $('#result').click(function (e) {
